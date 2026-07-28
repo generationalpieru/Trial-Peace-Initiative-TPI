@@ -1,4 +1,3 @@
-"""
 name: Изменение текста
 description: Предложить конкретную поправку
 title: "[CHANGE] "
@@ -27,4 +26,3 @@ attributes:
 label: Причина
 validations:
 required: true
-"""
