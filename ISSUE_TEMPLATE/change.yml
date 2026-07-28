@@ -1,0 +1,30 @@
+"""
+name: Изменение текста
+description: Предложить конкретную поправку
+title: "[CHANGE] "
+labels: ["text-change"]
+body:
+
+type: input
+id: section
+attributes:
+label: Раздел
+validations:
+required: true
+type: textarea
+id: current
+attributes:
+label: Текущая формулировка
+type: textarea
+id: proposed
+attributes:
+label: Предлагаемая формулировка
+validations:
+required: true
+type: textarea
+id: reason
+attributes:
+label: Причина
+validations:
+required: true
+"""

@@ -1,0 +1,34 @@
+"""
+name: Новая идея
+description: Предложить новый механизм или принцип
+title: "[IDEA] "
+labels: ["idea"]
+body:
+
+type: textarea
+id: problem
+attributes:
+label: Проблема
+description: Что именно не работает или отсутствует?
+validations:
+required: true
+type: textarea
+id: proposal
+attributes:
+label: Предложение
+description: Какой механизм вы предлагаете?
+validations:
+required: true
+type: textarea
+id: risks
+attributes:
+label: Риски и ограничения
+validations:
+required: true
+type: textarea
+id: verification
+attributes:
+label: Как проверить результат
+validations:
+required: true
+"""

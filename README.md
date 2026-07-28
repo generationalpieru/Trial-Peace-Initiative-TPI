@@ -6,6 +6,9 @@
 
 What if there were an additional stage between war and a final peace agreement?
 
+Every war eventually ends.
+The real question is what happens before a lasting peace becomes possible.
+
 **Not war. Not final peace. Joint work.**
 Не война. Не окончательный мир. Совместная работа.
 
