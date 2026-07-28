@@ -1,32 +1,38 @@
-name: Новая идея
-description: Предложить новый механизм или принцип
+name: New Idea | Новая идея
+description: Propose a new principle or mechanism | Предложить новый механизм или принцип
 title: "[IDEA] "
-labels: ["idea"]
-body:
+labels:
+  - idea
 
-type: textarea
-id: problem
-attributes:
-label: Проблема
-description: Что именно не работает или отсутствует?
-validations:
-required: true
-type: textarea
-id: proposal
-attributes:
-label: Предложение
-description: Какой механизм вы предлагаете?
-validations:
-required: true
-type: textarea
-id: risks
-attributes:
-label: Риски и ограничения
-validations:
-required: true
-type: textarea
-id: verification
-attributes:
-label: Как проверить результат
-validations:
-required: true
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem | Проблема
+      description: What is missing or what does not work? | Что именно не работает или отсутствует?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal | Предложение
+      description: What mechanism, principle or solution do you propose? | Какой механизм, принцип или решение вы предлагаете?
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and Limitations | Риски и ограничения
+      description: What risks, trade-offs or limitations should be considered? | Какие риски, компромиссы или ограничения следует учитывать?
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Evaluation | Как проверить результат
+      description: How could this proposal be evaluated, tested or reviewed? | Как можно проверить, протестировать или оценить это предложение?
+    validations:
+      required: true
